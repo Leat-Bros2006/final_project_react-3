@@ -8,10 +8,10 @@ export default function Login() {
     let navigate = useNavigate()
 
     function handleLogin() {
-        if (email == "user@gmail.com" && password == "123456") {
+        if (email == "user@gmail.com" && password == "123") {
             localStorage.setItem("token", "askldfjasflkjasdkfsf2034934asdfl")
             navigate("/")
-        } else if (email == "admin@gmail.com" && password == "123456") {
+        } else if (email == "admin@gmail.com" && password == "123") {
             localStorage.setItem("token", "askldfjasflkjasdkfsf2034934asdfl")
             navigate("/admin")
         } else {
