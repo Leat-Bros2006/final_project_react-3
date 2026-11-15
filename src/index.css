@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer components{
+    .btn-navbar{
+        @apply p-1.5 bg-slate-300/40 rounded cursor-pointer hover:bg-slate-400/40 duration-200
+    }
+}
+
+a.active{
+    /* font-weight: bold; */
+    /* text-decoration: underline; */
+}
