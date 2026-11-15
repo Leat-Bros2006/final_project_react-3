@@ -4,7 +4,7 @@ import { NavLink } from 'react-router'
 function Sidebar({isActive}) {
     return (
         <div className={`${isActive ? "w-[270px]" : "w-0"} min-h-screen bg-slate-800 overflow-hidden transition-all duration-300`}>
-            <div className='h-13 bg-slate-950 text-white font-bold text-2xl flex justify-center items-center'>
+            <div className='h-13 bg-red-950 text-white font-bold text-2xl flex justify-center items-center'>
                 Store
             </div>
 
